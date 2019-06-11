@@ -1,0 +1,15 @@
+name: json_async
+version: 0.0.1
+
+description: >
+  Create long-running isolates which execute json encoding/decoding operations.
+  Also includes some workarounds when being used in Flutter and supports
+  separate isolates for encoding & decoding.
+author: Sebastian Roth <sebastian.roth@gmail.com>
+homepage: http://github.com/dart-lang/path
+
+environment:
+ sdk: '>=2.2.2 <3.0.0'
+
+dev_dependencies:
+  test: '>=0.12.42 <2.0.0'
